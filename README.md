@@ -92,6 +92,20 @@ python research.py "survey about world model"
 
 Kết quả nằm ở `reports/survey-about-world-model.md` cùng `.sources.json` và `.meta.json`.
 
+Nếu nhà cung cấp LLM hết credit hoặc quota, có thể chạy chế độ dự phòng cục bộ
+với cùng `research.py`:
+
+```powershell
+$env:LAB_LOCAL_FALLBACK = "1"
+python research.py "survey about world model"
+```
+
+Chế độ này vẫn dùng ba lời gọi `task` tới researcher, lấy dữ liệu thật từ arXiv
+và Hugging Face, ghi chú và báo cáo trong sandbox, rồi chạy finalizer và
+validator trước khi tải kết quả về. `meta.json` ghi rõ
+`local-source-backed-fallback` và số token bằng 0; phần tổng hợp theo mẫu sẽ
+ngắn và kém linh hoạt hơn báo cáo do LLM viết.
+
 ## 6. Chủ đề và nộp bài
 
 - Chạy đủ **5 chủ đề** trong [`topics.md`](topics.md), mỗi chủ đề một lần.

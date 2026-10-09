@@ -1,0 +1,58 @@
+[
+  {
+    "n": 1,
+    "id": "2610.12417",
+    "url": "https://arxiv.org/abs/2610.12417",
+    "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2610.11993",
+    "url": "https://arxiv.org/abs/2610.11993",
+    "title": "DataVista: Diagnosing Multimodal LLMs on Data Video Understanding",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2411.04709",
+    "url": "https://huggingface.co/papers/2411.04709",
+    "title": "TIP-I2V: A Million-Scale Real Text and Image Prompt Dataset for Image-to-Video Generation",
+    "date": "2024-11-05",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2411.08380",
+    "url": "https://huggingface.co/papers/2411.08380",
+    "title": "EgoVid-5M: A Large-Scale Video-Action Dataset for Egocentric Video Generation",
+    "date": "2024-11-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2610.12470",
+    "url": "https://arxiv.org/abs/2610.12470",
+    "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2610.12468",
+    "url": "https://arxiv.org/abs/2610.12468",
+    "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2610.12442",
+    "url": "https://huggingface.co/papers/2610.12442",
+    "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  }
+]

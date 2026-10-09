@@ -1,0 +1,42 @@
+[
+  {
+    "n": 1,
+    "id": "2610.12468",
+    "url": "https://arxiv.org/abs/2610.12468",
+    "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2610.12464",
+    "url": "https://arxiv.org/abs/2610.12464",
+    "title": "What 30,000 Hours of Ego-centric Video Does Not Teach",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2505.14357",
+    "url": "https://huggingface.co/papers/2505.14357",
+    "title": "Vid2World: Crafting Video Diffusion Models to Interactive World Models",
+    "date": "2025-05-20",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2401.09985",
+    "url": "https://huggingface.co/papers/2401.09985",
+    "title": "WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens",
+    "date": "2024-01-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2610.06100",
+    "url": "https://huggingface.co/papers/2610.06100",
+    "title": "From Traces to Agentic Worlds: Agentic Language World Models for Interactive Environment Simulation",
+    "date": "2026-10-05",
+    "source": "hf-daily"
+  }
+]

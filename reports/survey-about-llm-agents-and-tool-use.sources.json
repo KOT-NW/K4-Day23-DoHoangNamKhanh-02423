@@ -1,0 +1,58 @@
+[
+  {
+    "n": 1,
+    "id": "2610.12185",
+    "url": "https://arxiv.org/abs/2610.12185",
+    "title": "RESETTLE: Robotic Recovery through Disagreement-Triggered Retrieval and Efficient Corrective Control",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2610.12183",
+    "url": "https://arxiv.org/abs/2610.12183",
+    "title": "A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2606.22388",
+    "url": "https://huggingface.co/papers/2606.22388",
+    "title": "PlanBench-XL: Evaluating Long-Horizon Planning of LLM Tool-Use Agents in Large-Scale Tool Ecosystems",
+    "date": "2026-06-21",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2603.08262",
+    "url": "https://huggingface.co/papers/2603.08262",
+    "title": "FinToolBench: Evaluating LLM Agents for Real-World Financial Tool Use",
+    "date": "2026-03-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2610.12375",
+    "url": "https://arxiv.org/abs/2610.12375",
+    "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2610.12190",
+    "url": "https://arxiv.org/abs/2610.12190",
+    "title": "DataSense-Bench: The First Step Toward an AI Scientist",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2610.07753",
+    "url": "https://huggingface.co/papers/2610.07753",
+    "title": "From Evidence to Action: How Tool-Using Agents Fail",
+    "date": "2026-10-06",
+    "source": "hf-daily"
+  }
+]

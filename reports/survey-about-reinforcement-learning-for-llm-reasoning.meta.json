@@ -1,0 +1,22 @@
+{
+  "topic": "survey about reinforcement learning for LLM reasoning",
+  "model": "local-source-backed-fallback",
+  "elapsed_s": 9.8,
+  "subagent_calls": 3,
+  "tool_calls": {
+    "write_todos": 1,
+    "task": 3,
+    "write_file": 2,
+    "execute": 2
+  },
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "n_sources": 6,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "topic": "survey about efficient inference and small language models",
+  "model": "local-source-backed-fallback",
+  "elapsed_s": 10.0,
+  "subagent_calls": 3,
+  "tool_calls": {
+    "write_todos": 1,
+    "task": 3,
+    "write_file": 2,
+    "execute": 2
+  },
+  "tokens": {
+    "input": 0,
+    "output": 0
+  },
+  "n_sources": 7,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search"
+  ]
+}
