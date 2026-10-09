@@ -1,17 +1,17 @@
 [
   {
     "n": 1,
-    "id": "2610.12417",
-    "url": "https://arxiv.org/abs/2610.12417",
-    "title": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+    "id": "2610.12442",
+    "url": "https://arxiv.org/abs/2610.12442",
+    "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
     "date": "2026-10-08",
     "source": "arxiv"
   },
   {
     "n": 2,
-    "id": "2610.11993",
-    "url": "https://arxiv.org/abs/2610.11993",
-    "title": "DataVista: Diagnosing Multimodal LLMs on Data Video Understanding",
+    "id": "2610.12382",
+    "url": "https://arxiv.org/abs/2610.12382",
+    "title": "WorldAlign: Decoupled 4D Reward for World-Consistent Video Generation",
     "date": "2026-10-08",
     "source": "arxiv"
   },
@@ -33,22 +33,6 @@
   },
   {
     "n": 5,
-    "id": "2610.12470",
-    "url": "https://arxiv.org/abs/2610.12470",
-    "title": "Dex-One2Many: Learning Dexterous Manipulation from a Single Human Demonstration",
-    "date": "2026-10-08",
-    "source": "arxiv"
-  },
-  {
-    "n": 6,
-    "id": "2610.12468",
-    "url": "https://arxiv.org/abs/2610.12468",
-    "title": "DreamTrue: Action-Faithful Robot World Model with Counterfactual Post-Training",
-    "date": "2026-10-08",
-    "source": "arxiv"
-  },
-  {
-    "n": 7,
     "id": "2610.12442",
     "url": "https://huggingface.co/papers/2610.12442",
     "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",

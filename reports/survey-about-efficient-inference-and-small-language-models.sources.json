@@ -1,17 +1,17 @@
 [
   {
     "n": 1,
-    "id": "2610.11634",
-    "url": "https://arxiv.org/abs/2610.11634",
-    "title": "LTBD: Learnable Trust-Boundary Delimiters for Prompt Injection Defense",
+    "id": "2610.12327",
+    "url": "https://arxiv.org/abs/2610.12327",
+    "title": "SparseDecoding: Decoding-Aware Pruning for Accurate and Efficient LLM Inference",
     "date": "2026-10-08",
     "source": "arxiv"
   },
   {
     "n": 2,
-    "id": "2610.11374",
-    "url": "https://arxiv.org/abs/2610.11374",
-    "title": "Rethinking Contrastive Loss in CLIP Post-training: A Complementary Framework with Frozen Text Encoder",
+    "id": "2610.12266",
+    "url": "https://arxiv.org/abs/2610.12266",
+    "title": "DVD: Dynamic Vector Decoding for Efficient MLLM-based Perception",
     "date": "2026-10-08",
     "source": "arxiv"
   },
@@ -33,18 +33,18 @@
   },
   {
     "n": 5,
-    "id": "2610.09941",
-    "url": "https://arxiv.org/abs/2610.09941",
-    "title": "Purifying Backdoored Large Vision-Language Models by Removing Hijacked Directions",
-    "date": "2026-10-07",
+    "id": "2610.05597",
+    "url": "https://arxiv.org/abs/2610.05597",
+    "title": "More Than Words: Compositional Tokenization for Efficient Language Models",
+    "date": "2026-10-04",
     "source": "arxiv"
   },
   {
     "n": 6,
-    "id": "2610.09186",
-    "url": "https://arxiv.org/abs/2610.09186",
-    "title": "The Dichotomy Between Pattern Recognition and Step-by-Step Reasoning",
-    "date": "2026-10-06",
+    "id": "2609.38006",
+    "url": "https://arxiv.org/abs/2609.38006",
+    "title": "HARISSA: Inference-Time Self-Checks for Efficient and Safe Local Language Model Deployment",
+    "date": "2026-09-29",
     "source": "arxiv"
   },
   {

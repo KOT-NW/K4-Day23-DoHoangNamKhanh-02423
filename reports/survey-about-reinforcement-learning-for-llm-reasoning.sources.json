@@ -1,9 +1,9 @@
 [
   {
     "n": 1,
-    "id": "2610.12061",
-    "url": "https://arxiv.org/abs/2610.12061",
-    "title": "When Should Agents Think? Adaptive Reasoning via Cross-Turn Estimation",
+    "id": "2610.12135",
+    "url": "https://arxiv.org/abs/2610.12135",
+    "title": "Q-Shaped Options for Hierarchical Reinforcement Learning",
     "date": "2026-10-08",
     "source": "arxiv"
   },
@@ -33,14 +33,6 @@
   },
   {
     "n": 5,
-    "id": "2610.12135",
-    "url": "https://arxiv.org/abs/2610.12135",
-    "title": "Q-Shaped Options for Hierarchical Reinforcement Learning",
-    "date": "2026-10-08",
-    "source": "arxiv"
-  },
-  {
-    "n": 6,
     "id": "2610.06293",
     "url": "https://huggingface.co/papers/2610.06293",
     "title": "VepAgent: Bridging Causal-Transition via Tool-Augmented Reinforcement Learning for Video Event Prediction",

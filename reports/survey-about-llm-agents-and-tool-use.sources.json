@@ -1,17 +1,17 @@
 [
   {
     "n": 1,
-    "id": "2610.12185",
-    "url": "https://arxiv.org/abs/2610.12185",
-    "title": "RESETTLE: Robotic Recovery through Disagreement-Triggered Retrieval and Efficient Corrective Control",
+    "id": "2610.12360",
+    "url": "https://arxiv.org/abs/2610.12360",
+    "title": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
     "date": "2026-10-08",
     "source": "arxiv"
   },
   {
     "n": 2,
-    "id": "2610.12183",
-    "url": "https://arxiv.org/abs/2610.12183",
-    "title": "A Closer Look at Agentic BBO: Benchmarking LLM Agents for Black-Box Optimization",
+    "id": "2610.12269",
+    "url": "https://arxiv.org/abs/2610.12269",
+    "title": "Cadence: Strategic Guidance for Coding Agents",
     "date": "2026-10-08",
     "source": "arxiv"
   },
@@ -33,17 +33,17 @@
   },
   {
     "n": 5,
-    "id": "2610.12375",
-    "url": "https://arxiv.org/abs/2610.12375",
-    "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
+    "id": "2610.11514",
+    "url": "https://arxiv.org/abs/2610.11514",
+    "title": "SSCBench: Evaluating the Evidential Validity of Fault-Injection Tests for Tool-Using LLM Agents",
     "date": "2026-10-08",
     "source": "arxiv"
   },
   {
     "n": 6,
-    "id": "2610.12190",
-    "url": "https://arxiv.org/abs/2610.12190",
-    "title": "DataSense-Bench: The First Step Toward an AI Scientist",
+    "id": "2610.11030",
+    "url": "https://arxiv.org/abs/2610.11030",
+    "title": "NOMOS: Compiling Written Policies into Statically Verified Tool-Call Gates for LLM Agents",
     "date": "2026-10-08",
     "source": "arxiv"
   },

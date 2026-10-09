@@ -1,7 +1,7 @@
 {
   "topic": "survey about LLM agents and tool use",
   "model": "local-source-backed-fallback",
-  "elapsed_s": 10.1,
+  "elapsed_s": 10.2,
   "subagent_calls": 3,
   "tool_calls": {
     "write_todos": 1,

@@ -25,12 +25,12 @@ from tools import arxiv_search, hf_daily_papers, hf_search_papers
 QUERIES = {
     "survey about world model": ("world models", "world models", "world"),
     "survey about reinforcement learning for LLM reasoning": (
-        "reinforcement learning reasoning language models", "reinforcement learning reasoning", "reasoning"
+        "reinforcement learning reasoning", "reinforcement learning reasoning", "reasoning"
     ),
-    "survey about LLM agents and tool use": ("language model agents tool use", "LLM agents tool use", "agent"),
-    "survey about video and multimodal generation": ("video multimodal generation", "video generation", "video"),
+    "survey about LLM agents and tool use": ("LLM agents", "LLM agents tool use", "agent"),
+    "survey about video and multimodal generation": ("video generation", "video generation", "video"),
     "survey about efficient inference and small language models": (
-        "small language models inference", "efficient inference small language models", "language"
+        "efficient inference", "efficient inference small language models", "language"
     ),
 }
 
@@ -55,7 +55,12 @@ def _clean(value):
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
 
-def _normalized(records, family):
+def _normalized(records, family, query=""):
+    if family == "arxiv":
+        terms = [term for term in re.findall(r"[a-z]+", query.lower()) if len(term) > 3]
+        records = sorted(records, key=lambda item: sum(term in str(item.get("title", "")).lower() for term in terms),
+                         reverse=True)
+        records = [item for item in records if any(term in str(item.get("title", "")).lower() for term in terms)]
     output = []
     for item in records:
         if not isinstance(item, dict) or not item.get("url") or not item.get("title"):
@@ -116,7 +121,7 @@ def _researcher(backend, topic):
         index = int(match.group(1)) if match else 1
         path = f"{NOTES_DIR}/{index:02d}-{topic.replace(' ', '-')[:32]}.md"
         query = arxiv_query if index == 1 else (hf_query if index == 2 else arxiv_query)
-        arxiv = _normalized(_json_records(arxiv_search.invoke({"query": query, "max_results": 3})), "arxiv")
+        arxiv = _normalized(_json_records(arxiv_search.invoke({"query": query, "max_results": 20})), "arxiv", query)
         if index == 2:
             hf = _normalized(_daily(hf_query, daily_keyword), "hf-daily")
         else:
